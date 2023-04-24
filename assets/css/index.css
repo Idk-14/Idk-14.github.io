@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fira+Sans:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+:root{
+    --bg-color: #47476a;
+    --primary-color: #5e5e82;
+    --secundary-color: #75749a;
+    --tertiary-color: #8c8bb1;
+    --quaternary-color: #a3a1c9;
+
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+#cursor{
+    background: linear-gradient(to bottom right, #75749a, #b2c1e6);
+    height: 300px;
+    z-index: -1;
+    aspect-ratio: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    filter: blur(50px);
+}
+/*HOME*/
+nav{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p{
+    color: var(--tertiary-color);
+    margin-left: 5rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.nav{
+    position: relative;
+    margin-right: 5rem;
+    background-color: var(--primary-color);
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+.nav a{
+    color: var(--tertiary-color);
+    padding: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    padding: .8rem;
+    color: var(--tertiary-color);
+    background-color:  var(--bg-color);
+    border-radius: 2rem;
+}
+
+.hero{
+    display: grid;
+    font-size: 2.5rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-left: 3rem;
+    padding-top: 20rem;
+}
+
+.hero h2{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#frontend{
+    max-width: 70rem;
+}
+/*//HOME*/
+/*ABOUTME*/
+.aboutme{
+    height: 100vh;
+    padding-top: 12rem;
+}
+
+.aboutme h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;   
+    font-size: 5rem;
+    text-align: center;
+}
+
+.aboutme h2{
+    font-family: 'Fira Sans', sans-serif;   
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 8rem;
+    padding-left: 8rem;
+    width: 75vh;
+}
+
+.aboutme h3{
+    font-family: 'Fira Sans', sans-serif;   
+    font-size: 2rem;
+    text-align: center;
+    padding-top: .5rem;
+    padding-left: 8rem;
+    width: 75vh;
+}
+
+.aboutme1{
+    padding: 150px 0px;
+}
+
+.foto{
+    overflow: hidden;
+    float: right;
+}
+
+.foto img{
+    border-radius: 150px;
+    padding-right: 200px;
+    width: 500px;
+    height: 500px;
+}
+/* //ABOUTME */
+.skills h1{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;   
+    font-size: 5rem;
+}
+
+.skills-container{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+.skills-section{
+
+    padding-top: 5rem;
+    text-align: center;
+    padding-left: 14rem;
+    padding-bottom: 15rem;
+}
+
+.skills-section h1{
+    font-family: 'Fira Sans', sans-serif;   
+    font-size: 3rem;
+    padding-left: 5rem;
+}
+.skills-section h2{
+    font-family: 'Fira Sans', sans-serif;   
+    font-size: 3rem;
+    padding-left: 5rem;
+}
+.skill ul {
+    color: var(--primary-color);
+    font-size: 5rem;
+    display: flex;
+    flex-wrap: row;
+    text-align: center;
+}
+
+.skill ul li {
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+        
+.skill1 ul {
+    color: var(--primary-color);
+    font-size: 5rem;
+    display: flex;
+    flex-wrap: row;
+    text-align: center;
+}     
+
+.skill1 ul li {
+    padding-top: 7rem;
+    padding-left: 5rem;
+    }
+/*CONTACT*/
+.contact h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;   
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+.contact h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;   
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 3rem;   
+}
+
+.contact .media{
+    display: flex;
+    justify-content: space-evenly   ;
+}
+.contact li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.contact li a{
+    font-family: 'Fira Sans', sans-serif;   
+    color: var(--quaternary-color);
+    text-decoration: none;
+}
+
+.contact li i{
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
